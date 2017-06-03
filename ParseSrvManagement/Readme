@@ -1,0 +1,26 @@
+SSH login: ssh -i uberClone.pem ubuntu@ec2-52-39-149-158.us-west-2.compute.amazonaws.com
+
+$ nano apps/parse/htdocs/server.js
+
+···
+var api = new ParseServer({
+    databaseURI: "mongodb://root:L2SH7Yr0M7Ao@127.0.0.1:27017/bitnami_parse",
+    cloud: "./node_modules/parse-server/lib/cloud-code/Parse.Cloud.js",
+    appId: "6a74b5c6458d2a8f67006f10e39ec5a46ea36a5f",
+    masterKey: "bf21a1b8f4e63f7a9fed3ef55bd58b3875b41818", -> clientId
+    fileKey: "134795ef5fd2b6ac11f0b0cb8b177abedac3546c",
+    serverURL: "http://ec2-52-39-149-158.us-west-2.compute.amazonaws.com:80/parse"
+});
+···
+
+Management URL: http://ec2-52-39-149-158.us-west-2.compute.amazonaws.com/apps
+User: user
+Password: L2SH7Yr0M7Ao
+
+info.plist
+
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+</dict>
