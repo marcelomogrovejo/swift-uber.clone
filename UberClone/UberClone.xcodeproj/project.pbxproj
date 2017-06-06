@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C6AB0BE1EE5ED22006CA327 /* DriverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6AB0BD1EE5ED22006CA327 /* DriverTableViewController.swift */; };
+		9C6AB0C11EE5EE0E006CA327 /* DriverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6AB0C01EE5EE0E006CA327 /* DriverTableViewCell.swift */; };
 		9CB30DD51EE1FD0C00EA1857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB30DD41EE1FD0C00EA1857 /* AppDelegate.swift */; };
 		9CB30DDA1EE1FD0C00EA1857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB30DD81EE1FD0C00EA1857 /* Main.storyboard */; };
 		9CB30DDC1EE1FD0C00EA1857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB30DDB1EE1FD0C00EA1857 /* Assets.xcassets */; };
@@ -14,11 +16,15 @@
 		9CB30DE71EE1FDE500EA1857 /* ParseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB30DE61EE1FDE500EA1857 /* ParseService.swift */; };
 		9CB30DE91EE1FDF000EA1857 /* TestParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB30DE81EE1FDF000EA1857 /* TestParse.swift */; };
 		9CB30DF41EE21F0C00EA1857 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB30DF31EE21F0C00EA1857 /* LoginViewController.swift */; };
-		9CB30DF71EE231BA00EA1857 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB30DF61EE231BA00EA1857 /* MainViewController.swift */; };
+		9CB30DF71EE231BA00EA1857 /* RiderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB30DF61EE231BA00EA1857 /* RiderViewController.swift */; };
+		9CBB96211EE5F98F00296A8F /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBB96201EE5F98F00296A8F /* Request.swift */; };
+		9CBB96231EE609C700296A8F /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBB96221EE609C700296A8F /* RequestViewController.swift */; };
 		F6499033A8AB62F7FBBA682F /* Pods_UberClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3FA7244B0EE21197E1E0A3 /* Pods_UberClone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C6AB0BD1EE5ED22006CA327 /* DriverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverTableViewController.swift; sourceTree = "<group>"; };
+		9C6AB0C01EE5EE0E006CA327 /* DriverTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverTableViewCell.swift; sourceTree = "<group>"; };
 		9CB30DD11EE1FD0C00EA1857 /* UberClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB30DD41EE1FD0C00EA1857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CB30DD91EE1FD0C00EA1857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -28,7 +34,9 @@
 		9CB30DE61EE1FDE500EA1857 /* ParseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseService.swift; sourceTree = "<group>"; };
 		9CB30DE81EE1FDF000EA1857 /* TestParse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestParse.swift; sourceTree = "<group>"; };
 		9CB30DF31EE21F0C00EA1857 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		9CB30DF61EE231BA00EA1857 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9CB30DF61EE231BA00EA1857 /* RiderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderViewController.swift; sourceTree = "<group>"; };
+		9CBB96201EE5F98F00296A8F /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		9CBB96221EE609C700296A8F /* RequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
 		D644F88344EADB0B119BBEF0 /* Pods-UberClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UberClone/Pods-UberClone.debug.xcconfig"; sourceTree = "<group>"; };
 		DB48A18018DA224C0F379478 /* Pods-UberClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-UberClone/Pods-UberClone.release.xcconfig"; sourceTree = "<group>"; };
 		EA3FA7244B0EE21197E1E0A3 /* Pods_UberClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UberClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +63,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9C6AB0BF1EE5EDFB006CA327 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				9C6AB0C01EE5EE0E006CA327 /* DriverTableViewCell.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
 		9CB30DC81EE1FD0C00EA1857 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +92,8 @@
 		9CB30DD31EE1FD0C00EA1857 /* UberClone */ = {
 			isa = PBXGroup;
 			children = (
+				9CBB961F1EE5F97A00296A8F /* entity */,
+				9C6AB0BF1EE5EDFB006CA327 /* view */,
 				9CB30DF51EE2319900EA1857 /* controller */,
 				9CB30DEA1EE200D500EA1857 /* service */,
 				9CB30DE81EE1FDF000EA1857 /* TestParse.swift */,
@@ -100,9 +118,19 @@
 			isa = PBXGroup;
 			children = (
 				9CB30DF31EE21F0C00EA1857 /* LoginViewController.swift */,
-				9CB30DF61EE231BA00EA1857 /* MainViewController.swift */,
+				9CB30DF61EE231BA00EA1857 /* RiderViewController.swift */,
+				9C6AB0BD1EE5ED22006CA327 /* DriverTableViewController.swift */,
+				9CBB96221EE609C700296A8F /* RequestViewController.swift */,
 			);
 			name = controller;
+			sourceTree = "<group>";
+		};
+		9CBB961F1EE5F97A00296A8F /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				9CBB96201EE5F98F00296A8F /* Request.swift */,
+			);
+			name = entity;
 			sourceTree = "<group>";
 		};
 		BA0765D097A6A50E8BEBC79D /* Frameworks */ = {
@@ -237,11 +265,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C6AB0C11EE5EE0E006CA327 /* DriverTableViewCell.swift in Sources */,
+				9CBB96211EE5F98F00296A8F /* Request.swift in Sources */,
 				9CB30DE91EE1FDF000EA1857 /* TestParse.swift in Sources */,
 				9CB30DE71EE1FDE500EA1857 /* ParseService.swift in Sources */,
 				9CB30DF41EE21F0C00EA1857 /* LoginViewController.swift in Sources */,
+				9CBB96231EE609C700296A8F /* RequestViewController.swift in Sources */,
 				9CB30DD51EE1FD0C00EA1857 /* AppDelegate.swift in Sources */,
-				9CB30DF71EE231BA00EA1857 /* MainViewController.swift in Sources */,
+				9CB30DF71EE231BA00EA1857 /* RiderViewController.swift in Sources */,
+				9C6AB0BE1EE5ED22006CA327 /* DriverTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

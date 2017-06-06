@@ -42,6 +42,8 @@ class LoginViewController: UIViewController {
         
         errorLabel.textColor = UIColor.red
         errorLabel.text = ""
+        
+        navigationController?.isNavigationBarHidden = true
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -56,9 +58,6 @@ class LoginViewController: UIViewController {
     }
     
     // MARK: Action methods
-    
-    @IBAction func selectedType(_ sender: Any) {
-    }
     
     @IBAction func mainAction(_ sender: Any) {
         
@@ -134,12 +133,11 @@ class LoginViewController: UIViewController {
             if let isDriver = PFUser.current()?["isDriver"] as? Bool {
                 if isDriver {
                     // To Driver page
-                    
-                    // TODO
+                    performSegue(withIdentifier: "showDriverSegue", sender: self)
                     
                 } else {
                     // To Raider page
-                    performSegue(withIdentifier: "showMainSegue", sender: self)
+                    performSegue(withIdentifier: "showRiderSegue", sender: self)
                 }
             }
         }

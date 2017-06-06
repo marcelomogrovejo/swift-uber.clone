@@ -17,7 +17,7 @@ class ParseService {
             
             ParseMutableClientConfiguration.applicationId = "6a74b5c6458d2a8f67006f10e39ec5a46ea36a5f"
             ParseMutableClientConfiguration.clientKey = "c9b8b52e4fb204797b20b55730c31af6224a64a8"
-            ParseMutableClientConfiguration.server = "http://ec2-52-39-149-158.us-west-2.compute.amazonaws.com:80/parse"
+            ParseMutableClientConfiguration.server = "http://ec2-34-210-163-213.us-west-2.compute.amazonaws.com/parse"
         
         }
 

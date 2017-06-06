@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:MendozaPalmares.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:MendozaCallePeruYMosconi.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:MendozaBelatrix.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:mendoza.gpx">
+   </FileRef>
+   <FileRef
       location = "group:UberClone.xcodeproj">
    </FileRef>
    <FileRef
